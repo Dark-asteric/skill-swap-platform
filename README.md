@@ -1,16 +1,48 @@
-# React + Vite
+SkillConnect: Expert-Led Mentorship Platform
+Project Name
+SkillConnect — A global bridge between ambitious learners and world-class professionals.  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Purpose
+The purpose of this platform is to empower individuals to master new disciplines through personalized, 1:1 remote sessions. By moving beyond traditional video courses, we provide a space where curious learners can engage directly with industry leaders and PhDs to build real-world portfolios and achieve career-defining growth.  
++1
 
-Currently, two official plugins are available:
+Key Features
+1. Diverse Expert Categories
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Technology & Engineering: Master Full-Stack Web Development with Alice Johnson or Data Science with Dr. Ethan Brown.  
 
-## React Compiler
+Creative Arts: Specialized training in UI/UX Design, Watercolor Painting, and Video Editing.  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Wellness & Lifestyle: Access to Yoga & Mindfulness with Priya Nair and Mental Health First Aid.  
 
-## Expanding the ESLint configuration
+Business & Finance: Support for Startup Launchpads, PMP Exam Prep, and Personal Finance.  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. Personalized Learning Journey
+
+1:1 Mentorship: Connect directly with experts for tailored guidance instead of generic tutorials.  
+
+Project-Focused Curriculum: Focus on real-world portfolio building to ensure practical mastery.  
+
+Flexible Scheduling: Book remote sessions that fit into your professional or personal schedule.  
+
+3. Industry-Standard Tools
+
+Hands-on Training: Learn to use essential professional tools including Figma, AWS Cloud architecture, and Adobe Creative Suite.  
+
+Global Reach: Immersive language learning and international culinary arts taught by native experts.  
+
+Tech Stack
+Frontend: React.js
+
+Styling: Tailwind CSS
+
+Icons: Heroicons / SVG Custom Components
+
+Getting Started
+To get a local copy up and running, follow these simple steps:
+
+Clone the repository.
+
+Install dependencies using npm install.
+
+Start the development server with npm start.
