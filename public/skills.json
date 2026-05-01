@@ -1,0 +1,1322 @@
+[
+  {
+    "skillId": 1001,
+    "skillName": "Full-Stack Web Development",
+    "providerName": "Alice Johnson",
+    "providerEmail": "alice.johnson@devpro.com",
+    "price": 120,
+    "rating": 4.9,
+    "slotsAvailable": 5,
+    "description": "Master the art of building modern web applications from scratch with this comprehensive full-stack development course. You will begin by learning the fundamentals of HTML, CSS, and JavaScript before diving deep into React for dynamic front-end interfaces. On the back end, we will explore Node.js and Express to build robust REST APIs that communicate seamlessly with a MongoDB database. Throughout the course, you will work on real-world projects including an e-commerce platform, a social media dashboard, and a task management app. We will also cover authentication with JWT, state management with Redux, and deployment on cloud platforms like AWS and Vercel. By the end of this program, you will have a professional portfolio and the confidence to take on freelance or full-time development roles. This skill is perfect for beginners and intermediate developers looking to level up their careers in the tech industry.",
+    "image": "https://images.unsplash.com/photo-1593720213428-28a5b9e94613?w=400",
+    "category": "Technology",
+    "tags": [
+      "HTML & CSS",
+      "React",
+      "Node.js",
+      "REST APIs",
+      "MongoDB",
+      "AWS deployment"
+    ],
+    "highlights": [
+      {
+        "val": "12 wks",
+        "desc": "Course length"
+      },
+      {
+        "val": "24 hr",
+        "desc": "Response time"
+      },
+      {
+        "val": "1:1",
+        "desc": "Private session"
+      },
+      {
+        "val": "Remote",
+        "desc": "Via video call"
+      }
+    ],
+    "includes": [
+      "60-minute live coding sessions",
+      "3 real-world portfolio projects",
+      "Code review & feedback (48 hr delivery)",
+      "Lifetime access to resource library"
+    ]
+  },
+  {
+    "skillId": 1002,
+    "skillName": "UI/UX Design Mastery",
+    "providerName": "Sophia Martinez",
+    "providerEmail": "sophia.m@designhub.io",
+    "price": 95,
+    "rating": 4.8,
+    "slotsAvailable": 8,
+    "description": "Transform your creative vision into stunning digital products with this in-depth UI/UX design course. We start with design thinking principles, empathy mapping, and user research techniques that form the backbone of any great product. You will master Figma from the ground up, learning how to create wireframes, high-fidelity prototypes, and interactive mockups that impress stakeholders. The course covers color theory, typography, grid systems, and accessibility standards that ensure your designs are both beautiful and inclusive. We will also explore usability testing methods, heuristic evaluations, and how to incorporate user feedback into iterative design cycles. Case studies from top companies like Airbnb, Spotify, and Apple will inspire your process. You will build a professional design portfolio that showcases your ability to solve real user problems through elegant and functional interfaces. Whether you are a beginner or a developer wanting to add design skills, this course opens doors across industries.",
+    "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=400",
+    "category": "Design",
+    "tags": [
+      "User research",
+      "Figma",
+      "Wireframing",
+      "Prototyping",
+      "Usability testing",
+      "Accessibility"
+    ],
+    "highlights": [
+      {
+        "val": "60 min",
+        "desc": "Session length"
+      },
+      {
+        "val": "48 hr",
+        "desc": "Response time"
+      },
+      {
+        "val": "1:1",
+        "desc": "Private session"
+      },
+      {
+        "val": "Remote",
+        "desc": "Via video call"
+      }
+    ],
+    "includes": [
+      "60-minute live design critique",
+      "Portfolio review & action plan",
+      "30-day async design feedback",
+      "Figma template & component kit"
+    ]
+  },
+  {
+    "skillId": 1003,
+    "skillName": "Data Science with Python",
+    "providerName": "Dr. Ethan Brown",
+    "providerEmail": "ethan.brown@datascience.edu",
+    "price": 150,
+    "rating": 4.9,
+    "slotsAvailable": 3,
+    "description": "Unlock the power of data with this rigorous and hands-on data science course taught by an experienced data scientist and university professor. You will start with Python fundamentals before moving into powerful libraries including NumPy, Pandas, Matplotlib, and Seaborn for data manipulation and visualization. The course dives deep into statistical analysis, probability theory, and inferential statistics that are essential for interpreting datasets with confidence. You will learn machine learning algorithms including linear regression, decision trees, random forests, and neural networks using Scikit-learn and TensorFlow. Real datasets from healthcare, finance, and social media will be used in projects to simulate industry challenges. We also cover data cleaning, feature engineering, model evaluation, and hyperparameter tuning to ensure your models perform optimally. By the end, you will have completed multiple end-to-end data science projects and built a GitHub portfolio ready to show to employers. Ideal for analysts, engineers, and curious minds who want to turn raw data into meaningful insights.",
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400",
+    "category": "Technology",
+    "tags": [
+      "Python",
+      "Pandas",
+      "NumPy",
+      "Machine learning",
+      "Data visualization",
+      "Statistical analysis"
+    ],
+    "highlights": [
+      {
+        "val": "16 wks",
+        "desc": "Course length"
+      },
+      {
+        "val": "48 hr",
+        "desc": "Response time"
+      },
+      {
+        "val": "1:1",
+        "desc": "Private session"
+      },
+      {
+        "val": "Remote",
+        "desc": "Via video call"
+      }
+    ],
+    "includes": [
+      "60-minute live tutorial sessions",
+      "End-to-end capstone project",
+      "Dataset & notebook resources",
+      "GitHub portfolio setup guidance"
+    ]
+  },
+  {
+    "skillId": 1004,
+    "skillName": "Digital Photography & Editing",
+    "providerName": "Lena Fischer",
+    "providerEmail": "lena.fischer@photostudio.de",
+    "price": 75,
+    "rating": 4.7,
+    "slotsAvailable": 10,
+    "description": "Capture the world beautifully and professionally with this all-encompassing digital photography and editing course. Whether you own a DSLR, mirrorless, or even a smartphone, you will learn how to harness light, composition, and settings to take breathtaking photos in any environment. We begin with camera mechanics including aperture, shutter speed, ISO, and white balance so you can shoot confidently in manual mode. The course then transitions into Adobe Lightroom for non-destructive editing, color grading, and batch processing your photo library with efficiency. Adobe Photoshop techniques are also covered for retouching portraits, compositing images, and creating stunning visual effects. You will explore various genres including portrait, landscape, street, and product photography with dedicated sessions for each. Guest critique sessions allow you to receive professional feedback on your work and grow faster. By the final project, you will deliver a complete themed photo series that reflects your unique artistic voice. Perfect for hobbyists and aspiring professional photographers alike.",
+    "image": "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=400",
+    "category": "Photography",
+    "tags": [
+      "Camera settings",
+      "Composition",
+      "Adobe Lightroom",
+      "Photoshop",
+      "Portrait",
+      "Landscape"
+    ],
+    "highlights": [
+      {
+        "val": "60 min",
+        "desc": "Session length"
+      },
+      {
+        "val": "72 hr",
+        "desc": "Response time"
+      },
+      {
+        "val": "1:1",
+        "desc": "Private session"
+      },
+      {
+        "val": "Remote",
+        "desc": "Via video call"
+      }
+    ],
+    "includes": [
+      "60-minute live photo review session",
+      "Edited sample set with notes",
+      "Lightroom preset pack",
+      "Ongoing critique for 30 days"
+    ]
+  },
+  {
+    "skillId": 1005,
+    "skillName": "Business English Communication",
+    "providerName": "James O'Connor",
+    "providerEmail": "james.oconnor@englishpro.co.uk",
+    "price": 60,
+    "rating": 4.6,
+    "slotsAvailable": 15,
+    "description": "Elevate your professional communication skills and open doors to global career opportunities with this focused Business English course. Designed for non-native speakers and professionals aiming to polish their language skills, the course covers formal writing, email etiquette, and report writing that meet international business standards. You will practice speaking through simulated board meetings, presentations, and negotiation role-plays that build real confidence. Grammar and vocabulary modules target the most common errors made by professionals and provide targeted exercises for rapid improvement. The course includes modules on cross-cultural communication, helping you navigate conversations with international colleagues and clients with sensitivity and clarity. Listening comprehension exercises use authentic business recordings from podcasts, conference talks, and TED presentations. Weekly one-on-one feedback sessions with your instructor ensure personalized progress and direct correction of your specific weaknesses. By the course conclusion, you will write polished professional documents and speak in meetings with authority. This course has helped hundreds of professionals land promotions and international roles.",
+    "image": "https://images.unsplash.com/photo-1455849318743-b2233052fcff?w=400",
+    "category": "Language",
+    "tags": [
+      "Email writing",
+      "Presentations",
+      "Negotiation",
+      "Cross-cultural comms",
+      "Grammar",
+      "Vocabulary"
+    ],
+    "highlights": [
+      {
+        "val": "60 min",
+        "desc": "Session length"
+      },
+      {
+        "val": "24 hr",
+        "desc": "Response time"
+      },
+      {
+        "val": "1:1",
+        "desc": "Private session"
+      },
+      {
+        "val": "Remote",
+        "desc": "Via video call"
+      }
+    ],
+    "includes": [
+      "60-minute live conversation practice",
+      "Written feedback on your documents",
+      "Business vocabulary resource pack",
+      "30-day async writing support"
+    ]
+  },
+  {
+    "skillId": 1006,
+    "skillName": "Mobile App Development (Flutter)",
+    "providerName": "Raj Patel",
+    "providerEmail": "raj.patel@flutterpro.in",
+    "price": 110,
+    "rating": 4.8,
+    "slotsAvailable": 6,
+    "description": "Build beautiful cross-platform mobile applications for iOS and Android simultaneously using Google's Flutter framework and the Dart programming language. This course is structured for both beginners and experienced developers who want to enter the booming mobile app market without learning two separate tech stacks. We start from Dart basics before moving into Flutter widgets, layouts, and the widget lifecycle. You will learn state management solutions including Provider, Riverpod, and Bloc to build scalable and maintainable applications. Integration with Firebase provides real-time databases, authentication, cloud functions, and push notifications that bring your apps to life. The course also covers REST API integration, local storage with Hive, and animations that create fluid and engaging user experiences. You will publish a complete app to both the Google Play Store and Apple App Store with step-by-step deployment guidance. Projects include a weather app, a chat application, and a full e-commerce mobile platform. By the end, you will be fully equipped to freelance or join a product team as a Flutter developer.",
+    "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400",
+    "category": "Technology",
+    "tags": [
+      "Flutter",
+      "Dart",
+      "Firebase",
+      "iOS & Android",
+      "State management",
+      "App Store deployment"
+    ],
+    "highlights": [
+      {
+        "val": "10 wks",
+        "desc": "Course length"
+      },
+      {
+        "val": "48 hr",
+        "desc": "Response time"
+      },
+      {
+        "val": "1:1",
+        "desc": "Private session"
+      },
+      {
+        "val": "Remote",
+        "desc": "Via video call"
+      }
+    ],
+    "includes": [
+      "60-minute live coding sessions",
+      "3 cross-platform app projects",
+      "Firebase integration walkthrough",
+      "App Store deployment guide"
+    ]
+  },
+  {
+    "skillId": 1007,
+    "skillName": "Personal Finance & Investing",
+    "providerName": "Claire Dubois",
+    "providerEmail": "claire.dubois@financecoach.fr",
+    "price": 85,
+    "rating": 4.7,
+    "slotsAvailable": 20,
+    "description": "Take full control of your financial future with this practical and empowering personal finance and investing course designed for everyday people. We begin with budgeting fundamentals, helping you track spending, eliminate debt, and build an emergency fund using proven systems like the 50/30/20 rule and zero-based budgeting. You will learn how compound interest works and why starting to invest early can be the single most impactful financial decision of your life. The course covers stocks, bonds, ETFs, index funds, and real estate as investment vehicles with honest assessments of risk and return for each. Tax-advantaged accounts including IRAs, 401(k)s, and HSAs are explained clearly so you can maximize every dollar you earn. We also dive into insurance planning, estate planning basics, and how to select a trustworthy financial advisor. Real case studies and interactive budget worksheets make the content immediately applicable to your own life situation. By the end, you will have a personalized financial plan with concrete milestones for the next five years. Thousands of students have used this course to pay off loans, buy homes, and retire early.",
+    "image": "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=400",
+    "category": "Finance",
+    "tags": [
+      "Budgeting",
+      "Investing",
+      "ETFs & index funds",
+      "Tax planning",
+      "Retirement",
+      "Debt management"
+    ],
+    "highlights": [
+      {
+        "val": "60 min",
+        "desc": "Session length"
+      },
+      {
+        "val": "48 hr",
+        "desc": "Response time"
+      },
+      {
+        "val": "1:1",
+        "desc": "Private session"
+      },
+      {
+        "val": "Remote",
+        "desc": "Via video call"
+      }
+    ],
+    "includes": [
+      "60-minute personalized finance session",
+      "Custom 5-year financial plan",
+      "Budget & investment worksheets",
+      "30-day follow-up Q&A support"
+    ]
+  },
+  {
+    "skillId": 1008,
+    "skillName": "Yoga & Mindfulness Coaching",
+    "providerName": "Priya Nair",
+    "providerEmail": "priya.nair@zenflow.com",
+    "price": 50,
+    "rating": 4.9,
+    "slotsAvailable": 12,
+    "description": "Reconnect with your body and mind through this transformative yoga and mindfulness coaching program led by a certified yoga instructor with over fifteen years of teaching experience. The course is thoughtfully structured to welcome complete beginners while offering depth and challenge for those with an existing practice. We begin with foundational poses, breathing techniques, and the philosophy behind yoga as a holistic lifestyle practice. Progressive sessions guide you through Vinyasa flows, Yin yoga, and restorative sequences designed for stress relief, flexibility, and core strength. Mindfulness and meditation modules teach you practical techniques for managing anxiety, improving focus, and developing a peaceful inner dialogue that you carry into daily life. Nutrition and sleep guidance based on Ayurvedic principles complement your physical practice and accelerate your overall wellness transformation. Live group sessions provide community, accountability, and the joy of practicing alongside others on the same journey. Private one-on-one coaching calls help you address personal challenges, injuries, or goals with individualized adjustments. By the end of this program, you will have established a consistent daily practice and a renewed sense of vitality.",
+    "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400",
+    "category": "Health & Wellness",
+    "tags": [
+      "Vinyasa flow",
+      "Yin yoga",
+      "Meditation",
+      "Breathwork",
+      "Stress relief",
+      "Ayurveda"
+    ],
+    "highlights": [
+      {
+        "val": "45 min",
+        "desc": "Session length"
+      },
+      {
+        "val": "24 hr",
+        "desc": "Response time"
+      },
+      {
+        "val": "1:1",
+        "desc": "Private session"
+      },
+      {
+        "val": "Remote",
+        "desc": "Via video call"
+      }
+    ],
+    "includes": [
+      "45-minute live yoga & mindfulness session",
+      "Personalized practice plan",
+      "Guided meditation audio pack",
+      "Nutrition & sleep guidance notes"
+    ]
+  },
+  {
+    "skillId": 1009,
+    "skillName": "SEO & Content Marketing",
+    "providerName": "Mark Williams",
+    "providerEmail": "mark.w@digitaledge.com",
+    "price": 90,
+    "rating": 4.6,
+    "slotsAvailable": 9,
+    "description": "Drive organic traffic, build brand authority, and generate leads without paid advertising by mastering SEO and content marketing in this results-driven course. We start with how search engines work, covering crawling, indexing, and ranking factors that determine where your content appears in Google search results. Keyword research using tools like Ahrefs, SEMrush, and Google Search Console is taught in depth so you can identify high-value opportunities your competitors have missed. On-page SEO techniques including title tags, meta descriptions, header structure, internal linking, and schema markup are covered with practical implementation guides. Off-page SEO explores link building strategies including guest posting, digital PR, and resource page outreach that build your domain authority over time. The content marketing modules teach you how to create pillar content, topic clusters, and editorial calendars that attract, engage, and convert your target audience consistently. Analytics and performance tracking ensure you can prove ROI and continuously improve your strategy based on real data. By the course end, you will have audited a real website and developed a complete content strategy ready for implementation. This course is essential for marketers, entrepreneurs, and bloggers serious about long-term online growth.",
+    "image": "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=400",
+    "category": "Marketing",
+    "tags": [
+      "Keyword research",
+      "On-page SEO",
+      "Link building",
+      "Content strategy",
+      "Analytics",
+      "Ahrefs"
+    ],
+    "highlights": [
+      {
+        "val": "60 min",
+        "desc": "Session length"
+      },
+      {
+        "val": "48 hr",
+        "desc": "Response time"
+      },
+      {
+        "val": "1:1",
+        "desc": "Private session"
+      },
+      {
+        "val": "Remote",
+        "desc": "Via video call"
+      }
+    ],
+    "includes": [
+      "60-minute live SEO strategy session",
+      "Full website audit report",
+      "Content calendar template",
+      "30-day async growth support"
+    ]
+  },
+  {
+    "skillId": 1010,
+    "skillName": "Guitar for Beginners",
+    "providerName": "Carlos Ramirez",
+    "providerEmail": "carlos.r@musicacademy.mx",
+    "price": 45,
+    "rating": 4.8,
+    "slotsAvailable": 18,
+    "description": "Pick up the guitar and start playing your favorite songs within weeks with this encouraging and expertly paced beginner guitar course. Taught by a professional musician with twenty years of performance and teaching experience, the course removes the mystery from learning an instrument and replaces it with joy and momentum. We start with proper posture, hand positioning, and how to care for your instrument before introducing your first open chords. Strumming patterns, fingerpicking basics, and chord transitions are practiced through popular songs that keep you motivated and excited to play every day. Music theory is introduced gradually and only as it relates directly to what you are playing on the guitar, making it digestible and immediately useful. By week four, you will be playing full songs smoothly with confidence. The course covers acoustic and electric guitar techniques so regardless of what instrument you own, you will thrive. Video lessons are supplemented with chord diagrams, tab sheets, and backing tracks you can jam along to at home. A dedicated community forum allows you to share progress, ask questions, and connect with fellow learners around the world. This course has helped over ten thousand students discover the lifelong joy of music.",
+    "image": "https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=400",
+    "category": "Music",
+    "tags": [
+      "Open chords",
+      "Strumming patterns",
+      "Fingerpicking",
+      "Music theory",
+      "Acoustic",
+      "Electric"
+    ],
+    "highlights": [
+      {
+        "val": "45 min",
+        "desc": "Session length"
+      },
+      {
+        "val": "48 hr",
+        "desc": "Response time"
+      },
+      {
+        "val": "1:1",
+        "desc": "Private session"
+      },
+      {
+        "val": "Remote",
+        "desc": "Via video call"
+      }
+    ],
+    "includes": [
+      "45-minute live guitar lesson",
+      "Chord diagrams & tab sheets",
+      "Backing tracks for practice",
+      "Progress review after 30 days"
+    ]
+  },
+  {
+    "skillId": 1011,
+    "skillName": "Machine Learning Engineering",
+    "providerName": "Dr. Yuki Tanaka",
+    "providerEmail": "yuki.tanaka@ailab.jp",
+    "price": 180,
+    "rating": 4.9,
+    "slotsAvailable": 4,
+    "description": "Go beyond data science and learn how to engineer, deploy, and maintain machine learning systems at production scale with this advanced course led by a senior AI researcher. The course assumes familiarity with Python and basic ML concepts and immediately dives into model architecture design, training pipelines, and evaluation frameworks used at top tech companies. You will master PyTorch deeply, building custom neural networks for computer vision, natural language processing, and time-series forecasting from scratch. MLOps practices are a major focus, covering experiment tracking with MLflow, model versioning, containerization with Docker, and orchestration with Kubernetes. We explore feature stores, data pipelines with Apache Airflow, and monitoring model drift in production environments to ensure your systems remain accurate over time. The course includes a capstone project where you design and deploy a complete ML product from raw data collection to a live API endpoint accessible to real users. Ethics in AI, bias detection, and explainability tools like SHAP and LIME are covered because responsible engineering matters as much as technical excellence. By the end, you will think and work like a machine learning engineer at a world-class company and have a portfolio that proves it.",
+    "image": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=400",
+    "category": "Technology",
+    "tags": [
+      "PyTorch",
+      "MLOps",
+      "Docker & Kubernetes",
+      "Model deployment",
+      "NLP",
+      "Computer vision"
+    ],
+    "highlights": [
+      {
+        "val": "16 wks",
+        "desc": "Course length"
+      },
+      {
+        "val": "24 hr",
+        "desc": "Response time"
+      },
+      {
+        "val": "1:1",
+        "desc": "Private session"
+      },
+      {
+        "val": "Remote",
+        "desc": "Via video call"
+      }
+    ],
+    "includes": [
+      "60-minute live engineering sessions",
+      "End-to-end ML product capstone",
+      "MLflow & Docker lab environment",
+      "Code review & architecture feedback"
+    ]
+  },
+  {
+    "skillId": 1012,
+    "skillName": "Cooking: Italian Cuisine",
+    "providerName": "Marco Bianchi",
+    "providerEmail": "marco.bianchi@cucina.it",
+    "price": 55,
+    "rating": 4.8,
+    "slotsAvailable": 14,
+    "description": "Bring the authentic flavors of Italy into your home kitchen with this immersive Italian cooking course taught by a native Italian chef trained in Florence and Rome. The course is a love letter to Italian culinary tradition, covering the regional diversity that makes Italian food so rich, from the hearty ragu of Bologna to the delicate seafood of Sicily and the fresh pesto of Liguria. You will learn to make fresh pasta from scratch including tagliatelle, pappardelle, and stuffed varieties like ravioli and tortellini using only flour and eggs. Classic sauces including carbonara, amatriciana, cacio e pepe, and pomodoro are demystified with the techniques that make all the difference. Risotto, ossobuco, tiramisu, and panna cotta round out a curriculum that covers antipasto through dolci with passion and precision. Each lesson explains not just the how but the why, connecting each dish to its cultural and historical roots so you cook with understanding and soul. Ingredient sourcing guidance helps you find quality Italian products or suitable substitutes wherever you live in the world. By the end of this course, you will host a complete Italian dinner party with confidence and grace.",
+    "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400",
+    "category": "Culinary",
+    "tags": [
+      "Fresh pasta",
+      "Classic sauces",
+      "Risotto",
+      "Regional cuisine",
+      "Ingredient sourcing",
+      "Desserts"
+    ],
+    "highlights": [
+      {
+        "val": "60 min",
+        "desc": "Session length"
+      },
+      {
+        "val": "48 hr",
+        "desc": "Response time"
+      },
+      {
+        "val": "1:1",
+        "desc": "Private session"
+      },
+      {
+        "val": "In-person/Remote",
+        "desc": "Flexible format"
+      }
+    ],
+    "includes": [
+      "60-minute live cooking session",
+      "Curated recipe booklet (PDF)",
+      "Ingredient sourcing guide",
+      "30-day recipe Q&A support"
+    ]
+  },
+  {
+    "skillId": 1013,
+    "skillName": "Public Speaking & Presentation",
+    "providerName": "Diana Keller",
+    "providerEmail": "diana.keller@speakup.de",
+    "price": 80,
+    "rating": 4.7,
+    "slotsAvailable": 11,
+    "description": "Overcome the fear of public speaking and develop the commanding presence of a world-class communicator with this transformative presentation skills course. Research shows that public speaking anxiety affects over seventy percent of people, but with the right techniques and consistent practice, it can be completely overcome and transformed into confidence. We begin by identifying your personal speaking style, strengths, and areas for growth through a recorded self-assessment that becomes your baseline for measuring progress. Storytelling frameworks, vocal modulation, body language, and the art of the pause are taught through targeted exercises and live practice sessions. You will learn how to structure presentations that open with impact, build logical momentum, and close with calls to action that move audiences. Slide design principles are covered alongside techniques for presenting without slides at all, making you versatile in any speaking environment. Handling Q&A, managing hostile questions, and recovering gracefully from mistakes are practical skills covered in dedicated modules. Each week includes a recorded speaking assignment reviewed by your instructor with specific, actionable feedback. By the final session, you will deliver a polished ten-minute presentation on a topic of your choice to a live virtual audience. Graduates of this course have gone on to speak at TEDx events, lead boardroom presentations, and win pitch competitions.",
+    "image": "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=400",
+    "category": "Communication",
+    "tags": [
+      "Storytelling",
+      "Vocal modulation",
+      "Body language",
+      "Slide design",
+      "Q&A handling",
+      "Confidence"
+    ],
+    "highlights": [
+      {
+        "val": "60 min",
+        "desc": "Session length"
+      },
+      {
+        "val": "48 hr",
+        "desc": "Response time"
+      },
+      {
+        "val": "1:1",
+        "desc": "Private session"
+      },
+      {
+        "val": "Remote",
+        "desc": "Via video call"
+      }
+    ],
+    "includes": [
+      "60-minute live presentation coaching",
+      "Recorded session with feedback notes",
+      "Slide design review",
+      "30-day speaking challenge plan"
+    ]
+  },
+  {
+    "skillId": 1014,
+    "skillName": "Graphic Design with Adobe",
+    "providerName": "Nina Kowalski",
+    "providerEmail": "nina.k@creativelab.pl",
+    "price": 88,
+    "rating": 4.7,
+    "slotsAvailable": 7,
+    "description": "Build a powerful graphic design skillset using the industry-standard Adobe Creative Suite in this practical and portfolio-focused course taught by a working creative director with international agency experience. The course covers three cornerstone tools in depth: Adobe Illustrator for vector graphics and logo design, Adobe Photoshop for photo manipulation and digital art, and Adobe InDesign for professional print and digital layout. You will begin with foundational design principles including composition, hierarchy, balance, contrast, and color theory that apply across every project you ever design. Logo design projects teach you how to create scalable, versatile brand marks from concept sketch to final vector file. Typography modules explore font pairing, editorial design, and how to use type as a visual element in its own right. Print projects include designing a business card set, a magazine spread, and a product packaging mockup. Digital design projects cover social media graphics, digital ads, and a responsive web banner series. Each project receives peer feedback and instructor critique to simulate the real design review process you will encounter in agency and in-house roles. By the end, you will have a diverse design portfolio ready to share with clients or employers and the creative confidence to take on any brief.",
+    "image": "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=400",
+    "category": "Design",
+    "tags": [
+      "Illustrator",
+      "Photoshop",
+      "InDesign",
+      "Logo design",
+      "Typography",
+      "Brand identity"
+    ],
+    "highlights": [
+      {
+        "val": "10 wks",
+        "desc": "Course length"
+      },
+      {
+        "val": "48 hr",
+        "desc": "Response time"
+      },
+      {
+        "val": "1:1",
+        "desc": "Private session"
+      },
+      {
+        "val": "Remote",
+        "desc": "Via video call"
+      }
+    ],
+    "includes": [
+      "60-minute live design sessions",
+      "Portfolio project briefs & assets",
+      "Instructor critique on all projects",
+      "Adobe resource & asset library"
+    ]
+  },
+  {
+    "skillId": 1015,
+    "skillName": "Spanish Language for Travelers",
+    "providerName": "Isabella Torres",
+    "providerEmail": "isabella.t@spanishfast.es",
+    "price": 40,
+    "rating": 4.6,
+    "slotsAvailable": 25,
+    "description": "Learn the Spanish you actually need to travel confidently and connect genuinely with people across Spain and Latin America in this practical, conversation-first language course. Forget grammar drills and memorizing conjugation tables in isolation, this course teaches Spanish the way your brain actually acquires language, through meaningful context, repetition, and real conversation. In the first week, you will learn greetings, asking for directions, ordering food, and handling money in Spanish-speaking countries. We use spaced repetition vocabulary building so the words you learn stick permanently rather than fading after the course ends. Cultural modules prepare you for regional differences in dialect, customs, and etiquette so you arrive in any Spanish-speaking country ready to engage respectfully and authentically. Pronunciation coaching helps you develop an accent that native speakers understand and appreciate from the very first lesson. Weekly live conversation sessions with native Spanish speakers give you a safe space to practice and build real fluency without fear of judgment. Situational dialogues cover airports, hotels, restaurants, markets, emergencies, and making local friends. By the end of eight weeks, you will hold a basic conversation confidently and navigate any travel situation independently.",
+    "image": "https://images.unsplash.com/photo-1551649001-7a2482d98d05?w=400",
+    "category": "Language",
+    "tags": [
+      "Conversational Spanish",
+      "Pronunciation",
+      "Travel vocabulary",
+      "Cultural etiquette",
+      "Listening",
+      "Role-play"
+    ],
+    "highlights": [
+      {
+        "val": "8 wks",
+        "desc": "Course length"
+      },
+      {
+        "val": "24 hr",
+        "desc": "Response time"
+      },
+      {
+        "val": "1:1",
+        "desc": "Private session"
+      },
+      {
+        "val": "Remote",
+        "desc": "Via video call"
+      }
+    ],
+    "includes": [
+      "60-minute live conversation session",
+      "Spaced repetition vocabulary pack",
+      "Situational dialogue scripts",
+      "30-day native speaker practice access"
+    ]
+  },
+  {
+    "skillId": 1016,
+    "skillName": "Cloud Architecture (AWS)",
+    "providerName": "Tom Harrison",
+    "providerEmail": "tom.harrison@cloudmaster.io",
+    "price": 200,
+    "rating": 4.9,
+    "slotsAvailable": 2,
+    "description": "Design, build, and manage scalable cloud infrastructure on Amazon Web Services with this comprehensive AWS architecture course designed for developers and DevOps engineers looking to earn their AWS Solutions Architect certification. The course begins with a thorough overview of cloud computing concepts before diving into core AWS services including EC2, S3, RDS, VPC, IAM, Lambda, and CloudFront. You will learn how to architect highly available and fault-tolerant systems using load balancers, auto-scaling groups, and multi-availability-zone deployments that match the patterns used by enterprise organizations worldwide. Infrastructure as Code is covered extensively using AWS CloudFormation and Terraform so you can version-control and automate your entire cloud environment. Serverless architecture patterns using AWS Lambda, API Gateway, DynamoDB, and Step Functions are taught through hands-on labs. Security best practices including IAM policies, encryption at rest and in transit, VPC security groups, and compliance frameworks are woven throughout the curriculum. Cost optimization strategies help you architect efficiently and avoid expensive cloud bills. The course includes full practice exam preparation for the AWS Solutions Architect Associate exam with hundreds of practice questions reviewed in detail. By completion, you will be fully prepared to lead cloud migration and architecture projects in any organization.",
+    "image": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=400",
+    "category": "Technology",
+    "tags": [
+      "EC2 & S3",
+      "Lambda & serverless",
+      "Terraform",
+      "IAM security",
+      "Auto-scaling",
+      "AWS cert prep"
+    ],
+    "highlights": [
+      {
+        "val": "12 wks",
+        "desc": "Course length"
+      },
+      {
+        "val": "24 hr",
+        "desc": "Response time"
+      },
+      {
+        "val": "1:1",
+        "desc": "Private session"
+      },
+      {
+        "val": "Remote",
+        "desc": "Via video call"
+      }
+    ],
+    "includes": [
+      "60-minute live architecture sessions",
+      "Hands-on AWS lab environment",
+      "800+ practice exam questions",
+      "Certification application guidance"
+    ]
+  },
+  {
+    "skillId": 1017,
+    "skillName": "Watercolor Painting",
+    "providerName": "Sophie Laurent",
+    "providerEmail": "sophie.laurent@artelier.fr",
+    "price": 65,
+    "rating": 4.8,
+    "slotsAvailable": 10,
+    "description": "Discover the luminous and expressive world of watercolor painting in this beautifully structured course for beginners and intermediate artists seeking to develop a genuine watercolor practice. Unlike oil or acrylic, watercolor has a unique unpredictability and transparency that makes it both challenging and endlessly rewarding, and this course embraces that magic while giving you the skills to work with it confidently. We begin with understanding paper types, brush selection, pigment quality, and how water-to-paint ratios affect every wash you lay down. Foundational techniques including wet-on-wet, wet-on-dry, glazing, lifting, and masking are practiced in progressive exercises designed to build muscle memory and intuition. You will paint landscapes, botanicals, portraits, and cityscapes through guided projects that teach you to observe light, simplify complex subjects, and make confident compositional decisions. Color mixing theory specific to watercolor ensures you avoid muddy mixes and achieve the vibrant, glowing hues that make the medium so distinctive and beloved. Each week, your artwork is shared in a supportive critique community where positive, growth-focused feedback accelerates your development. By the final project, you will complete an original full-composition watercolor painting that reflects your personal style and journey. Supplies list is provided so you spend your budget wisely from day one.",
+    "image": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=400",
+    "category": "Art",
+    "tags": [
+      "Wet-on-wet",
+      "Color mixing",
+      "Botanicals",
+      "Landscapes",
+      "Portraiture",
+      "Composition"
+    ],
+    "highlights": [
+      {
+        "val": "60 min",
+        "desc": "Session length"
+      },
+      {
+        "val": "72 hr",
+        "desc": "Response time"
+      },
+      {
+        "val": "1:1",
+        "desc": "Private session"
+      },
+      {
+        "val": "Remote",
+        "desc": "Via video call"
+      }
+    ],
+    "includes": [
+      "60-minute live painting critique",
+      "Recommended supplies list",
+      "Step-by-step technique guides",
+      "Community critique group access"
+    ]
+  },
+  {
+    "skillId": 1018,
+    "skillName": "Cybersecurity Fundamentals",
+    "providerName": "Aaron Muller",
+    "providerEmail": "aaron.muller@securetech.ch",
+    "price": 130,
+    "rating": 4.8,
+    "slotsAvailable": 6,
+    "description": "Protect systems, networks, and data from ever-evolving digital threats by building a solid cybersecurity foundation in this practical and career-oriented course. As cyberattacks continue to rise globally, organizations are desperately seeking skilled security professionals, and this course provides the knowledge and hands-on experience to enter the field with confidence. We begin with core concepts including the CIA triad, threat modeling, attack surfaces, and the cybersecurity kill chain framework used to understand how attackers think and operate. Networking fundamentals are reviewed before we explore network security, firewalls, intrusion detection systems, and packet analysis using Wireshark. Ethical hacking techniques including reconnaissance, vulnerability scanning, and password attacks are taught in a safe lab environment using Kali Linux. Defensive security covers endpoint protection, patch management, log analysis, and incident response procedures that minimize damage when attacks occur. Cryptography principles, PKI, SSL/TLS, and how encryption protects data in transit and at rest are explained clearly with real-world examples. Governance, risk, and compliance frameworks including NIST, ISO 27001, and GDPR are introduced for those pursuing management-level roles. By the end, you will be prepared for entry-level certifications including CompTIA Security+ and have a foundation to pursue ethical hacking certifications like CEH or OSCP.",
+    "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=400",
+    "category": "Technology",
+    "tags": [
+      "Ethical hacking",
+      "Kali Linux",
+      "Network security",
+      "Cryptography",
+      "Incident response",
+      "CompTIA prep"
+    ],
+    "highlights": [
+      {
+        "val": "10 wks",
+        "desc": "Course length"
+      },
+      {
+        "val": "48 hr",
+        "desc": "Response time"
+      },
+      {
+        "val": "1:1",
+        "desc": "Private session"
+      },
+      {
+        "val": "Remote",
+        "desc": "Via video call"
+      }
+    ],
+    "includes": [
+      "60-minute live security lab sessions",
+      "Kali Linux lab environment access",
+      "Vulnerability assessment exercises",
+      "Certification study roadmap"
+    ]
+  },
+  {
+    "skillId": 1019,
+    "skillName": "Fitness & Strength Training",
+    "providerName": "Jake Morrison",
+    "providerEmail": "jake.m@ironbody.com",
+    "price": 70,
+    "rating": 4.7,
+    "slotsAvailable": 16,
+    "description": "Build a stronger, leaner, and more resilient body with this science-backed fitness and strength training program designed for all levels from absolute beginner to intermediate lifter. Unlike cookie-cutter workout plans, this course teaches you the principles behind effective training so you can design and adapt your own programs for life. We begin with a movement assessment to identify mobility restrictions and imbalances before touching a single weight, ensuring you train safely and efficiently from day one. The fundamental movement patterns including squat, hinge, push, pull, and carry are taught with meticulous attention to form through slow-motion video demonstrations and common error corrections. Progressive overload, periodization, and recovery science are explained in simple terms so your body keeps responding and improving over the months and years ahead. Nutrition guidance covers macronutrients, meal timing, supplementation basics, and how to eat in alignment with your specific goals whether that is fat loss, muscle gain, or athletic performance. Home gym and commercial gym variations ensure the program works with whatever equipment you have access to. Weekly check-in templates and tracking sheets keep you accountable and allow you to measure real progress over time. By the end of twelve weeks, participants consistently report dramatic improvements in strength, energy, and body composition.",
+    "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=400",
+    "category": "Health & Wellness",
+    "tags": [
+      "Strength training",
+      "Progressive overload",
+      "Form coaching",
+      "Nutrition",
+      "Periodization",
+      "Recovery"
+    ],
+    "highlights": [
+      {
+        "val": "12 wks",
+        "desc": "Course length"
+      },
+      {
+        "val": "48 hr",
+        "desc": "Response time"
+      },
+      {
+        "val": "1:1",
+        "desc": "Private session"
+      },
+      {
+        "val": "Remote",
+        "desc": "Via video call"
+      }
+    ],
+    "includes": [
+      "60-minute live training session",
+      "Customized 12-week program",
+      "Nutrition & meal timing guide",
+      "Weekly check-in & progress tracking"
+    ]
+  },
+  {
+    "skillId": 1020,
+    "skillName": "Video Editing with Premiere Pro",
+    "providerName": "Lucas Silva",
+    "providerEmail": "lucas.silva@videostudio.br",
+    "price": 85,
+    "rating": 4.6,
+    "slotsAvailable": 9,
+    "description": "Create professional, engaging videos for YouTube, social media, film, or corporate productions with this comprehensive Adobe Premiere Pro video editing course taught by a professional editor with credits on international productions. The course is organized as a complete workflow from ingest to export, mirroring the professional editing pipeline used in real production environments. You will start by learning the Premiere Pro interface, project organization, and importing media before diving into the fundamental editing techniques of cut, trim, ripple, roll, and slip. Color grading using Lumetri Color gives your footage a cinematic and consistent look that elevates the perceived production value of your work. Audio mixing, noise reduction, and sound design are covered in dedicated modules because great audio separates amateur from professional-looking content. Motion graphics and title creation using Adobe After Effects integration and Essential Graphics let you add polished text animations and branded elements to your videos. You will edit several complete projects including a short documentary, a social media reel, a travel vlog, and a product advertisement, each designed to teach distinct storytelling techniques. Export settings for YouTube, Instagram, broadcast, and web are covered to ensure your content always looks perfect on every platform. By the final project, you will have a showreel worthy of client work or job applications.",
+    "image": "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=400",
+    "category": "Creative Media",
+    "tags": [
+      "Premiere Pro",
+      "Color grading",
+      "Audio mixing",
+      "Motion graphics",
+      "After Effects",
+      "Export & delivery"
+    ],
+    "highlights": [
+      {
+        "val": "8 wks",
+        "desc": "Course length"
+      },
+      {
+        "val": "48 hr",
+        "desc": "Response time"
+      },
+      {
+        "val": "1:1",
+        "desc": "Private session"
+      },
+      {
+        "val": "Remote",
+        "desc": "Via video call"
+      }
+    ],
+    "includes": [
+      "60-minute live editing sessions",
+      "4 portfolio edit projects",
+      "LUT & preset asset pack",
+      "Showreel feedback & review"
+    ]
+  },
+  {
+    "skillId": 1021,
+    "skillName": "Project Management (PMP Prep)",
+    "providerName": "Sandra Lee",
+    "providerEmail": "sandra.lee@pmcoach.ca",
+    "price": 160,
+    "rating": 4.8,
+    "slotsAvailable": 5,
+    "description": "Earn your Project Management Professional certification and become the go-to leader for complex initiatives in your organization with this intensive PMP exam preparation and practical project management course. The PMP certification is recognized globally and consistently ranks among the highest-value professional credentials, associated with a significant salary premium in virtually every industry. This course covers all domains of the PMBOK Guide Seventh Edition including stakeholder engagement, team performance, development approach, planning, project work, delivery, measurement, and uncertainty management. Predictive, agile, and hybrid methodologies are compared and contrasted so you understand when and how to apply each depending on your project context and organizational culture. Risk management, change management, and procurement are explored through realistic scenarios that mirror the complex judgment calls you will face in the PMP exam and in your actual career. The course includes over eight hundred practice exam questions with detailed explanations that teach you to think like a certified project manager rather than simply memorize facts. Experience hour documentation guidance ensures your PMP application is accurate, complete, and approved on the first submission. Soft skills including leadership, conflict resolution, and stakeholder communication are woven throughout because the exam increasingly tests these interpersonal competencies. Students of this course pass the PMP exam at a rate significantly above the global average.",
+    "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=400",
+    "category": "Business",
+    "tags": [
+      "PMBOK 7th ed.",
+      "Agile & hybrid",
+      "Risk management",
+      "Stakeholder comms",
+      "PMP exam prep",
+      "Leadership"
+    ],
+    "highlights": [
+      {
+        "val": "12 wks",
+        "desc": "Course length"
+      },
+      {
+        "val": "24 hr",
+        "desc": "Response time"
+      },
+      {
+        "val": "1:1",
+        "desc": "Private session"
+      },
+      {
+        "val": "Remote",
+        "desc": "Via video call"
+      }
+    ],
+    "includes": [
+      "60-minute live coaching sessions",
+      "800+ PMP practice questions",
+      "Application hour documentation help",
+      "Exam strategy & study plan"
+    ]
+  },
+  {
+    "skillId": 1022,
+    "skillName": "Animation with Blender",
+    "providerName": "Felix Novak",
+    "providerEmail": "felix.novak@blenderstudio.cz",
+    "price": 105,
+    "rating": 4.7,
+    "slotsAvailable": 8,
+    "description": "Create stunning 3D animations, visual effects, and rendered artwork using Blender, the world's most powerful free and open-source 3D creation suite used by indie animators and professional studios alike. This course takes you from a complete Blender beginner to a capable 3D artist through a carefully designed curriculum that builds complexity gradually while keeping each project visually rewarding and fun to complete. We begin with the Blender interface, navigation, and fundamental 3D concepts like vertices, edges, faces, normals, and the coordinate system before moving into modeling your first objects. Subdivision surface modeling, sculpting, and procedural modeling techniques are each taught through dedicated projects so you can approach any shape with the right tool. Materials and shading using Blender's node-based Shader Editor give your models photo-realistic or stylized surface properties including metals, glass, skin, and fabric. The animation system covers keyframes, curves, rigging, and the non-linear animation editor for creating character movement and cinematic sequences. Particle systems, fluid simulation, and cloth simulation open the door to stunning visual effects. Rendering with Cycles and EEVEE are compared with guidance on choosing the right engine for your project's needs and deadline. By the final project, you will produce a short animated sequence showcasing a fully modeled, rigged, textured, lit, and rendered character in motion.",
+    "image": "https://images.unsplash.com/photo-1561736778-92e52a7769ef?w=400",
+    "category": "Design",
+    "tags": [
+      "3D modelling",
+      "Rigging",
+      "Shader editor",
+      "Particle systems",
+      "Cycles rendering",
+      "Character animation"
+    ],
+    "highlights": [
+      {
+        "val": "12 wks",
+        "desc": "Course length"
+      },
+      {
+        "val": "72 hr",
+        "desc": "Response time"
+      },
+      {
+        "val": "1:1",
+        "desc": "Private session"
+      },
+      {
+        "val": "Remote",
+        "desc": "Via video call"
+      }
+    ],
+    "includes": [
+      "60-minute live Blender sessions",
+      "Short animated film final project",
+      "Asset library & scene files",
+      "Portfolio render feedback"
+    ]
+  },
+  {
+    "skillId": 1023,
+    "skillName": "E-Commerce with Shopify",
+    "providerName": "Hannah Green",
+    "providerEmail": "hannah.g@ecomgrowth.com",
+    "price": 95,
+    "rating": 4.6,
+    "slotsAvailable": 13,
+    "description": "Launch and grow a profitable online store from scratch using Shopify, the platform powering over two million businesses worldwide, in this comprehensive e-commerce entrepreneurship course. Whether you want to sell physical products, digital downloads, dropshipped items, or handmade crafts, this course provides the complete roadmap from idea validation to first sale and sustainable growth. We start with product research and niche selection using data-driven tools that help you identify profitable markets before investing time and money. Shopify store setup is covered step by step including theme customization, product page optimization, collection organization, and checkout configuration that minimizes cart abandonment. Supplier sourcing for dropshipping via AliExpress and print-on-demand via Printful are explored as low-risk business models ideal for beginners. Digital marketing modules cover Facebook and Instagram advertising, Google Shopping campaigns, email marketing with Klaviyo, and TikTok organic content strategies that drive targeted traffic to your store. Conversion rate optimization teaches you how to write compelling product descriptions, use social proof, and create urgency that turns visitors into buyers. Customer service systems, returns policies, and fulfillment workflows are organized so your store scales without chaos. Analytics and reporting help you understand your numbers and make smart decisions. By the end, you will have a fully operational online store positioned for its first sales and long-term profitability.",
+    "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400",
+    "category": "Business",
+    "tags": [
+      "Shopify setup",
+      "Dropshipping",
+      "Facebook ads",
+      "Email marketing",
+      "CRO",
+      "Analytics"
+    ],
+    "highlights": [
+      {
+        "val": "8 wks",
+        "desc": "Course length"
+      },
+      {
+        "val": "48 hr",
+        "desc": "Response time"
+      },
+      {
+        "val": "1:1",
+        "desc": "Private session"
+      },
+      {
+        "val": "Remote",
+        "desc": "Via video call"
+      }
+    ],
+    "includes": [
+      "60-minute live store strategy session",
+      "Fully operational Shopify store",
+      "Ad campaign setup walkthrough",
+      "30-day growth support"
+    ]
+  },
+  {
+    "skillId": 1024,
+    "skillName": "Piano for Adults",
+    "providerName": "Elena Volkov",
+    "providerEmail": "elena.volkov@pianoacademy.ru",
+    "price": 70,
+    "rating": 4.9,
+    "slotsAvailable": 7,
+    "description": "It is never too late to learn the piano, and this thoughtfully designed adult beginner course proves it with a curriculum that respects your time and intelligence while delivering genuine musical progress faster than traditional lessons. Created by a concert pianist and music educator with thirty years of teaching experience, the course acknowledges that adults learn differently than children and uses that to your advantage. We start with hand position, finger independence exercises, and reading basic sheet music before you play your very first simple piece in week one, because early wins are essential for adult learners to stay motivated. Music theory is introduced incrementally and always in direct connection to what you are playing, so it feels useful and natural rather than abstract and academic. We progressively work through classical pieces by Bach, Beethoven, and Chopin alongside popular songs and film scores so your repertoire feels personal and rewarding. Scales, chords, and arpeggios are practiced daily in short, focused sessions that fit into a busy adult schedule without requiring hours of practice time. The course includes a dedicated module on playing by ear and basic improvisation for those who want to sit at a piano and play freely. Video feedback sessions allow your instructor to observe your technique and make personalized corrections that prevent bad habits from forming. By the end of six months, you will play a complete piece from memory to share with friends and family.",
+    "image": "https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?w=400",
+    "category": "Music",
+    "tags": [
+      "Scales & chords",
+      "Sheet music reading",
+      "Classical repertoire",
+      "Playing by ear",
+      "Finger technique",
+      "Improvisation"
+    ],
+    "highlights": [
+      {
+        "val": "45 min",
+        "desc": "Session length"
+      },
+      {
+        "val": "48 hr",
+        "desc": "Response time"
+      },
+      {
+        "val": "1:1",
+        "desc": "Private session"
+      },
+      {
+        "val": "Remote",
+        "desc": "Via video call"
+      }
+    ],
+    "includes": [
+      "45-minute live piano lesson",
+      "Repertoire selection tailored to you",
+      "Sheet music & practice guides",
+      "Video technique review feedback"
+    ]
+  },
+  {
+    "skillId": 1025,
+    "skillName": "Mental Health First Aid",
+    "providerName": "Dr. Patricia Wong",
+    "providerEmail": "patricia.wong@mentalhealth.sg",
+    "price": 55,
+    "rating": 4.9,
+    "slotsAvailable": 22,
+    "description": "Learn how to recognize, respond to, and support someone experiencing a mental health crisis with this evidence-based Mental Health First Aid certification course developed in partnership with licensed clinical psychologists. Just as physical first aid teaches us to respond to a broken bone or cardiac event, this course equips you to respond compassionately and effectively to depression, anxiety, psychosis, substance use, and suicidal crisis in the people around you. We begin by dispelling common mental health myths, reducing stigma, and building the vocabulary to talk about mental health openly and without judgment. The ALGEE action plan is the core framework taught through role-play scenarios and case studies that bring it to life. Warning signs for depression, anxiety disorders, bipolar disorder, eating disorders, and psychotic episodes are covered with clear, observable indicators that any person can learn to recognize. Safe messaging guidelines around suicide are taught alongside practical crisis intervention skills that could genuinely save a life. Workplace mental health applications are woven throughout, making this course enormously valuable for managers, HR professionals, teachers, and team leaders. Participants learn to support their people proactively rather than reactively addressing problems after they escalate. Upon completion, you receive a recognized Mental Health First Aider certificate valid for three years. This course changes how you see and respond to the people around you permanently.",
+    "image": "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=400",
+    "category": "Health & Wellness",
+    "tags": [
+      "ALGEE framework",
+      "Crisis intervention",
+      "Suicide safe messaging",
+      "Stigma reduction",
+      "Workplace wellbeing",
+      "Certification"
+    ],
+    "highlights": [
+      {
+        "val": "2 days",
+        "desc": "Course length"
+      },
+      {
+        "val": "24 hr",
+        "desc": "Response time"
+      },
+      {
+        "val": "Group",
+        "desc": "Workshop format"
+      },
+      {
+        "val": "Remote",
+        "desc": "Via video call"
+      }
+    ],
+    "includes": [
+      "Live 2-day certification workshop",
+      "MHFA certificate (3-year validity)",
+      "Crisis response reference card",
+      "Workplace wellbeing resource pack"
+    ]
+  },
+  {
+    "skillId": 1026,
+    "skillName": "Social Media Management",
+    "providerName": "Mia Thompson",
+    "providerEmail": "mia.t@socialmediapro.com",
+    "price": 75,
+    "rating": 4.6,
+    "slotsAvailable": 17,
+    "description": "Build, manage, and grow brand communities across all major social media platforms with the strategic skills and creative tools employers and clients are paying premium rates for in this practical social media management course. The social media landscape evolves rapidly, and this course is updated regularly to reflect current best practices on Instagram, TikTok, LinkedIn, X, Pinterest, and Facebook so your knowledge stays relevant and applicable immediately. We start with social media strategy fundamentals including audience persona development, competitive analysis, content pillars, and platform-specific algorithms that determine who sees your content and when. Content creation is a major focus, covering copywriting for social, basic graphic design with Canva, short-form video production with a smartphone, and caption writing that drives engagement and action. Content calendar planning, scheduling tools including Buffer and Later, and batching workflows are taught to help you manage multiple accounts efficiently without burning out. Community management principles cover how to respond to comments, handle negative feedback, build genuine relationships with followers, and grow an engaged audience organically. Paid social advertising on Meta and LinkedIn is introduced for clients who want to amplify their reach beyond organic content. Analytics interpretation using native platform insights and third-party tools helps you demonstrate ROI and make data-informed decisions. By the end, you will have managed a real social media account for thirty days and produced a strategy document ready to show clients or employers.",
+    "image": "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=400",
+    "category": "Marketing",
+    "tags": [
+      "Content strategy",
+      "Instagram & TikTok",
+      "Canva & video",
+      "Scheduling tools",
+      "Meta ads",
+      "Analytics"
+    ],
+    "highlights": [
+      {
+        "val": "8 wks",
+        "desc": "Course length"
+      },
+      {
+        "val": "48 hr",
+        "desc": "Response time"
+      },
+      {
+        "val": "1:1",
+        "desc": "Private session"
+      },
+      {
+        "val": "Remote",
+        "desc": "Via video call"
+      }
+    ],
+    "includes": [
+      "60-minute live strategy session",
+      "30-day managed account project",
+      "Content calendar & caption templates",
+      "Performance analytics report"
+    ]
+  },
+  {
+    "skillId": 1027,
+    "skillName": "Blockchain & Web3 Development",
+    "providerName": "Owen Blackwell",
+    "providerEmail": "owen.b@web3labs.io",
+    "price": 175,
+    "rating": 4.7,
+    "slotsAvailable": 5,
+    "description": "Enter the cutting edge of decentralized technology and build smart contracts, DeFi protocols, and NFT platforms with this comprehensive blockchain and Web3 development course for developers who want to work at the frontier of the internet. The course begins with blockchain fundamentals including distributed ledger technology, consensus mechanisms, cryptographic hashing, and the economic incentives that make decentralized networks function without central authorities. Ethereum is the primary blockchain taught, and you will become fluent in Solidity, the smart contract language used to power billions of dollars in decentralized applications deployed daily on Ethereum and EVM-compatible chains. Development tools including Hardhat, Foundry, and Remix IDE are covered so you can write, test, and deploy smart contracts with professional-grade workflows. We explore token standards including ERC-20 for fungible tokens and ERC-721 and ERC-1155 for NFTs, building working implementations of each from scratch. DeFi protocol mechanics including automated market makers, liquidity pools, yield farming, and lending protocols are analyzed and partially replicated in hands-on coding sessions. Web3 frontend integration using ethers.js and wagmi connects your smart contracts to React-based user interfaces. Security is paramount in blockchain development, and smart contract auditing concepts including reentrancy, integer overflow, and access control vulnerabilities are covered with examples drawn from real exploits. By completion, you will have deployed multiple live smart contracts and built a Web3 application on a public testnet.",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=400",
+    "category": "Technology",
+    "tags": [
+      "Solidity",
+      "Smart contracts",
+      "ERC-20 & NFTs",
+      "DeFi protocols",
+      "Hardhat",
+      "ethers.js"
+    ],
+    "highlights": [
+      {
+        "val": "12 wks",
+        "desc": "Course length"
+      },
+      {
+        "val": "48 hr",
+        "desc": "Response time"
+      },
+      {
+        "val": "1:1",
+        "desc": "Private session"
+      },
+      {
+        "val": "Remote",
+        "desc": "Via video call"
+      }
+    ],
+    "includes": [
+      "60-minute live coding sessions",
+      "Live testnet smart contract deployments",
+      "Smart contract audit exercises",
+      "Web3 portfolio project review"
+    ]
+  },
+  {
+    "skillId": 1028,
+    "skillName": "Interior Design Fundamentals",
+    "providerName": "Chloe Bernard",
+    "providerEmail": "chloe.bernard@interiordesign.fr",
+    "price": 90,
+    "rating": 4.7,
+    "slotsAvailable": 10,
+    "description": "Transform any space into a beautiful and functional environment with this comprehensive interior design course taught by a professional interior designer with experience spanning residential, hospitality, and commercial projects across Europe. Whether you dream of redesigning your own home, starting a design business, or pursuing further formal education in design, this course gives you an authoritative foundation in the principles and practical skills of the field. We begin with the elements and principles of design including line, form, color, texture, pattern, light, and scale and how they interact within a three-dimensional space to create specific emotional atmospheres and functional outcomes. Space planning is taught using both hand-sketched floor plans and digital tools like SketchUp, teaching you how to arrange furniture and circulation paths for rooms of any size and function. Color theory specific to interior environments covers how paint colors shift under different lighting conditions and how to create cohesive palettes across open-plan spaces. Materials and finishes including flooring, textiles, window treatments, and wall coverings are evaluated for both aesthetic and practical considerations. Sourcing, budgeting, and client presentation skills are covered for those interested in working professionally as designers. By the final project, you will produce a complete room redesign concept including mood board, floor plan, materials schedule, and rendered presentation that demonstrates your design vision and technical competence.",
+    "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400",
+    "category": "Design",
+    "tags": [
+      "Space planning",
+      "Color theory",
+      "SketchUp",
+      "Materials & finishes",
+      "Mood boards",
+      "Client presentation"
+    ],
+    "highlights": [
+      {
+        "val": "8 wks",
+        "desc": "Course length"
+      },
+      {
+        "val": "72 hr",
+        "desc": "Response time"
+      },
+      {
+        "val": "1:1",
+        "desc": "Private session"
+      },
+      {
+        "val": "Remote",
+        "desc": "Via video call"
+      }
+    ],
+    "includes": [
+      "60-minute live design consultation",
+      "Full room redesign concept",
+      "Mood board & materials schedule",
+      "SketchUp floor plan review"
+    ]
+  },
+  {
+    "skillId": 1029,
+    "skillName": "Children's Education Tutoring",
+    "providerName": "Laura Bennett",
+    "providerEmail": "laura.b@kidstutors.co.uk",
+    "price": 35,
+    "rating": 4.9,
+    "slotsAvailable": 30,
+    "description": "Support your child's academic growth and reignite their love of learning with personalized tutoring sessions designed by an experienced primary and secondary school educator with a master's degree in educational psychology. Every child learns differently, and the foundation of this tutoring service is understanding your child's unique learning style, pace, and interests before designing sessions that meet them exactly where they are. The program covers core subjects including mathematics, English reading and writing, science, and study skills for children aged five through sixteen, with curriculum alignment to national education standards. Mathematics sessions use manipulatives, visual models, and real-world problem solving to build both procedural fluency and deep conceptual understanding. Literacy sessions develop phonics, vocabulary, reading comprehension, and creative and persuasive writing skills through books and topics your child actually enjoys. Study skills and organizational coaching help older students manage homework, revision schedules, and exam preparation strategies that reduce academic anxiety and improve performance. Progress is tracked through regular assessments and parent reports that keep families informed and involved in their child's development. The approach prioritizes building genuine confidence and a positive relationship with learning over short-term grade improvements. Flexible session scheduling accommodates busy family lives with morning, afternoon, and evening availability throughout the week. Children who believe in themselves as learners consistently achieve more throughout their entire educational journey.",
+    "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=400",
+    "category": "Education",
+    "tags": [
+      "Maths",
+      "English literacy",
+      "Science",
+      "Study skills",
+      "Ages 5–16",
+      "Curriculum aligned"
+    ],
+    "highlights": [
+      {
+        "val": "45 min",
+        "desc": "Session length"
+      },
+      {
+        "val": "24 hr",
+        "desc": "Response time"
+      },
+      {
+        "val": "1:1",
+        "desc": "Private session"
+      },
+      {
+        "val": "Remote",
+        "desc": "Via video call"
+      }
+    ],
+    "includes": [
+      "45-minute live tutoring session",
+      "Progress assessment & parent report",
+      "Personalised homework plan",
+      "Flexible morning, afternoon & evening slots"
+    ]
+  },
+  {
+    "skillId": 1030,
+    "skillName": "Entrepreneurship & Startup Launchpad",
+    "providerName": "Ben Adeyemi",
+    "providerEmail": "ben.adeyemi@startupschool.ng",
+    "price": 140,
+    "rating": 4.8,
+    "slotsAvailable": 8,
+    "description": "Turn your business idea into a real, revenue-generating venture with this dynamic entrepreneurship course built and taught by a serial entrepreneur who has founded and exited three technology startups. This is not a theoretical business school course, it is a hands-on launchpad that takes you through the exact steps used by real founders to go from idea to product to paying customers. We begin with idea validation using customer discovery interviews, problem-solution fit analysis, and market sizing so you only pursue opportunities with genuine commercial potential. The lean startup methodology and build-measure-learn loop are taught as a mindset and operational framework that reduces waste and increases your probability of building something people actually want. Business model design using the Business Model Canvas maps out how your venture creates, delivers, and captures value in a format that can be tested and iterated rapidly. Minimum viable product development is covered for both technical and non-technical founders, with guidance on outsourcing, no-code tools, and working with development partners. Fundraising strategy covers bootstrapping, angel investment, venture capital, and revenue-based financing with honest assessment of what each option requires and what it costs in equity and control. Pricing strategy, sales fundamentals, and early customer acquisition tactics give you the commercial skills founders often neglect while obsessing over product. A pitch deck workshop culminates in a recorded investor pitch presentation reviewed by experienced founders and investors in our mentor network. By the final week, you will have a validated business concept, an MVP roadmap, and a clear go-to-market plan ready for execution.",
+    "image": "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=400",
+    "category": "Business",
+    "tags": [
+      "Idea validation",
+      "Lean startup",
+      "Business model canvas",
+      "MVP development",
+      "Fundraising",
+      "Pitch deck"
+    ],
+    "highlights": [
+      {
+        "val": "8 wks",
+        "desc": "Course length"
+      },
+      {
+        "val": "48 hr",
+        "desc": "Response time"
+      },
+      {
+        "val": "1:1",
+        "desc": "Private session"
+      },
+      {
+        "val": "Remote",
+        "desc": "Via video call"
+      }
+    ],
+    "includes": [
+      "60-minute live founder coaching session",
+      "Validated business concept & MVP roadmap",
+      "Investor pitch deck workshop",
+      "Mentor network intro & go-to-market plan"
+    ]
+  }
+]
