@@ -1,12 +1,14 @@
-SkillConnect: Expert-Led Mentorship Platform
-Project Name
-SkillConnect — A global bridge between ambitious learners and world-class professionals.  
+Project Name : 
 
-Purpose
+SkillSwap — A Local skill Exchange Platform.  
+
+Purpose :
+
 The purpose of this platform is to empower individuals to master new disciplines through personalized, 1:1 remote sessions. By moving beyond traditional video courses, we provide a space where curious learners can engage directly with industry leaders and PhDs to build real-world portfolios and achieve career-defining growth.  
 +1
 
-Key Features
+Key Features :
+
 1. Diverse Expert Categories
 
 Technology & Engineering: Master Full-Stack Web Development with Alice Johnson or Data Science with Dr. Ethan Brown.  
