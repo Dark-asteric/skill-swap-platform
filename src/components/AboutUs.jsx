@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-
+import AOS from 'aos';
 const AboutUs = () => {
     const stats = [
         { label: 'Diverse Categories', value: 'Technology, Design, Arts & More' },
@@ -14,13 +14,21 @@ const AboutUs = () => {
         return () => clearTimeout(timer);
     }, []);
 
+    useEffect(() => {
+        AOS.init({
+            duration: 1000,
+            easing: 'ease-out-back',
+            once: true,
+        });
+    }, []);
+
     if (loading) return (
         <div className="fixed inset-0 z-9999 flex items-center justify-center bg-white/50 backdrop-blur-sm">
             <span className="loading loading-spinner loading-lg text-purple-600"></span>
         </div>
     );
     return (
-        <section className="bg-white py-16 px-10 font-sans text-gray-800 mt-10">
+        <section className="bg-white py-16 px-10 font-sans text-gray-800 mt-10" data-aos="flip-left">
             <div className="max-w-7xl mx-auto">
                 <div className="text-center mb-16">
                     <h2 className="text-sm font-bold text-purple-400 uppercase tracking-widest mb-3">
@@ -82,7 +90,7 @@ const AboutUs = () => {
                             alt="Full Stack Development Session"
                             className="rounded-2xl shadow-2xl z-10 relative"
                         />
-                        
+
                     </div>
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 bg-purple-900 rounded-3xl p-10 text-center shadow-xl">

@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { ToastContainer, toast } from "react-toastify";
+import AOS from 'aos';
 
 const subjects = ["General Inquiry", "Support", "Partnership", "Billing", "Other"];
 
@@ -70,6 +71,13 @@ const Contactus = () => {
         });
     };
 
+    useEffect(() => {
+                AOS.init({
+                    duration: 1000,
+                    easing: 'ease-out-back',
+                    once: true,
+                });
+            }, []);
     if (loading) return (
         <div className="fixed inset-0 z-9999 flex items-center justify-center bg-white/50 backdrop-blur-sm">
             <span className="loading loading-spinner loading-lg text-purple-600"></span>
@@ -79,7 +87,7 @@ const Contactus = () => {
     return (
         <>
             <ToastContainer />
-            <div className="min-h-screen bg-stone-100 flex items-center justify-center px-10 py-16">
+            <div className="min-h-screen bg-stone-100 flex items-center justify-center px-10 py-16" data-aos="flip-left">
                 <div className="w-full max-w-5xl">
                     <div className="mb-10">
                         <p className="text-xs font-semibold tracking-[0.2em] uppercase text-purple-500 mb-3">Get in touch</p>
