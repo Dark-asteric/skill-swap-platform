@@ -15,7 +15,6 @@ const validatePassword = (password) => {
   if (!/[a-z]/.test(password)) {
     errors.push("At least one lowercase letter (a–z)");
   }
-
   return errors;
 };
 
@@ -42,7 +41,7 @@ const validateEmail = (email) => {
 
 const Register = () => {
 
-  const { createUser,setUser } = use(AuthContext);
+  const { createUser,setUser, updateUser } = use(AuthContext);
   const [nameError,setNameError] = useState("");
   const [emailError, setEmailError] = useState("");
   // const [photoError, setPhotoError] = useState("");
@@ -73,7 +72,7 @@ const Register = () => {
       setEmailError("");
     }
 
-    // const photoURL = form.photo.value;
+    const photoURL = form.photo.value;
     // const photoErr = validatePhotoURL(photoURL);
     // if (photoErr) {
     //   setPhotoError(photoErr);
@@ -81,7 +80,7 @@ const Register = () => {
     // } else {
     //   setPhotoError("");
     // }
-    
+
     const password = form.password.value;
     const errors = validatePassword(password);
     if(errors.length > 0){
@@ -95,7 +94,14 @@ const Register = () => {
     createUser(email, password)
       .then(result => {
         const user = result.user;
-        setUser(user);
+        updateUser({displayName:name, photoURL:photoURL}).then(() => {
+          setUser({ ...user, displayName: name, photoURL: photoURL });
+        })
+        .catch(error => {
+          setUser(user);
+          toast.error(error.message);
+        })
+        
         navigate('/');
         console.log(user)
       })

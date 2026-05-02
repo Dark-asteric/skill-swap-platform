@@ -9,6 +9,7 @@ import Contactus from "../components/Contactus";
 import AboutUs from "../components/AboutUs";
 import SkillsDetails from "../components/SkillsDetails";
 import Privateroute from "../provider/Privateroute";
+import MyProfile from "../components/MyProfile";
 
 const router = createBrowserRouter([
     {
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
             {
                 path: "/about",
                 Component: AboutUs,
+            },
+            {
+                path: "/profile",
+                element: <Privateroute><MyProfile></MyProfile></Privateroute>,
             }
         ]
     },

@@ -52,4 +52,4 @@ Clone the repository.
 
 Install dependencies using npm install.
 
-Start the development server with npm start dev.
+Start the development server with npm run dev.

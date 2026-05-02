@@ -36,7 +36,6 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <Link to='/' className="btn btn-ghost text-xl animate__hinge">Skillswap</Link>
-                {user && user.email}
             </div>
             <div className="navbar-center hidden md:flex">
                 <ul className="menu menu-horizontal px-1">
@@ -44,7 +43,7 @@ const Navbar = () => {
                 </ul>
             </div>
             {
-                user ? <div className="navbar-end gap-3"> <img src={user.photoURL} alt="" /> <button onClick={handleLogout} className="btn rounded-2xl text-white bg-purple-600 hover:bg-purple-500">Logout</button> </div>: <div className="navbar-end gap-3">
+                user ? <div className="navbar-end gap-3"> <Link to='/profile'><img className='w-12 h-12 border border-purple-600 p-2 rounded-full hover:cursor-pointer' src={user.photoURL} alt="" /></Link> <button onClick={handleLogout} className="btn rounded-2xl text-white bg-purple-600 hover:bg-purple-500">Logout</button> </div>: <div className="navbar-end gap-3">
                     <Link to='/auth/login' className="btn rounded-2xl">Login</Link>
                     <Link to='/auth/register' className="btn rounded-2xl text-white bg-purple-600 hover:bg-purple-500">Register</Link>
                 </div>
