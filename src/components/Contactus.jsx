@@ -79,15 +79,14 @@ const Contactus = () => {
     return (
         <>
             <ToastContainer />
-            <div className="min-h-screen bg-stone-100 flex items-center justify-center px-10 py-16"
-                style={{ fontFamily: "'DM Sans', sans-serif" }}>
+            <div className="min-h-screen bg-stone-100 flex items-center justify-center px-10 py-16">
                 <div className="w-full max-w-5xl">
                     <div className="mb-10">
                         <p className="text-xs font-semibold tracking-[0.2em] uppercase text-purple-500 mb-3">Get in touch</p>
                         <h1 className="text-5xl font-semibold text-stone-800 leading-tight"
-                            style={{ fontFamily: "'Cormorant Garamond', serif" }}>
+                           >
                             We'd love to<br />
-                            <span className="italic font-normal text-stone-400">hear from you.</span>
+                            <span className="italic font-normal text-gray-400">hear from you.</span>
                         </h1>
                     </div>
 
@@ -100,11 +99,10 @@ const Contactus = () => {
                                     </svg>
                                 </div>
                                 <div>
-                                    <h3 className="text-xl font-semibold text-stone-800 mb-1"
-                                        style={{ fontFamily: "'Cormorant Garamond', serif" }}>
+                                    <h3 className="text-xl font-semibold text-stone-800 mb-1">
                                         Message sent!
                                     </h3>
-                                    <p className="text-sm text-stone-400">Thanks for reaching out. We'll get back to you soon.</p>
+                                    <p className="text-sm text-gray-400">Thanks for reaching out. We'll get back to you soon.</p>
                                 </div>
                                 <button
                                     onClick={() => { setSubmitted(false); setForm({ name: "", email: "", subject: "", message: "" }); }}

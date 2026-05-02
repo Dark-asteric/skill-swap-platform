@@ -3,14 +3,23 @@ import slide2 from "../assets/slide-2.png"
 import slide3 from "../assets/slide-3.png"
 import slide4 from "../assets/slide-4.png"
 import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
 import 'swiper/css';
 import { Autoplay } from 'swiper/modules'
+import { useEffect } from "react";
+import Aos from "aos";
 
 const Herosection = () => {
+
+    useEffect(() => {
+            Aos.init({
+                duration: 2000,
+                easing: 'ease-out-back',
+                once: true,
+            });
+        }, []);
+    
     return (
-        <div className='px-10 py-5 mt-28'>
+        <div className='px-10 py-5 mt-28' data-aos="flip-right">
             <Swiper
                 spaceBetween={40}
                 slidesPerView={2}

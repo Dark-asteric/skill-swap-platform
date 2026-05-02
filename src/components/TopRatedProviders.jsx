@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import TopRatedCard from './TopRatedCard';
+import AOS from 'aos';
 
 const TopRatedProviders = () => {
     const [cards, setCards] = useState([]);
@@ -17,6 +18,13 @@ const TopRatedProviders = () => {
             .catch((err) => console.error("Failed to load:", err));
     }, []);
 
+    useEffect(() => {
+            AOS.init({
+                duration: 1000,
+                easing: 'ease-out-back',
+                once: true,
+            });
+        }, []);
     if (loading) return (
         // <div className="flex h-screen items-center justify-center backdrop-blur-sm">
         //     <span className="loading loading-spinner loading-lg"></span>
@@ -29,18 +37,22 @@ const TopRatedProviders = () => {
 
     return (
         <>
-            <div className='mt-10 mb-5 flex flex-col justify-center items-center'>
-                <h1 className='text-3xl font-bold text-center mt-20 mb-5'>Learn From <span className='text-purple-600'>Top Rated Providers</span></h1>
-                <p className='text-center text-gray-500'>Our mentors are industry leaders with years of experience in their <br />respective fields.</p>
-                <div className='grid grid-cols-1 lg:grid-cols-4 mt-10 px-10 mb-20 gap-10'>
-                    {sortedCards.slice(0, 4).map(card => {
-                        return <TopRatedCard key={card.skillId} card={card}></TopRatedCard>
-                    })
-                    }
-                </div>
+            <div>
+                <div className='mt-10 mb-5 flex flex-col justify-center items-center' data-aos="flip-left" >
+                    <h1 className='text-3xl font-bold text-center mt-20 mb-5'>Learn From <span className='text-purple-600'>Top Rated Providers</span></h1>
+                    <p className='text-center text-gray-500'>Our mentors are industry leaders with years of experience in their <br />respective fields.</p>
+                    <div className='grid grid-cols-1 lg:grid-cols-4 mt-10 px-10 mb-20 gap-10'>
+                        {sortedCards.slice(0, 4).map(card => {
+                            return <TopRatedCard key={card.skillId} card={card}></TopRatedCard>
+                        })
+                        }
+                    </div>
 
+                </div>
+                
             </div>
             <div className='border-b border-gray-100 mt-10 mx-10 h-2 shadow-md'></div>
+            
         </>
     )
 }

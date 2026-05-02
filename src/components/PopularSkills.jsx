@@ -1,6 +1,9 @@
 import { useEffect, useState } from 'react'
+import AOS from 'aos';
+
 import Card from './Card';
 import { Link } from 'react-router';
+
 const PopularSkills = () => {
     const [cards, setCards] = useState([]);
     const [loading, setLoading] = useState(true);
@@ -14,13 +17,20 @@ const PopularSkills = () => {
             })
             .catch((err) => console.error("Failed to load:", err));
     }, []);
+    useEffect(() => {
+        AOS.init({
+            duration: 1000,
+            easing: 'ease-out-back',
+            once: true,
+        });
+    }, []);
 
     if (loading) return <span className="loading loading-spinner"></span>;
 
     return (
         <>
             <div className='border-b border-gray-100 mt-10 mx-10 h-2 shadow-md'></div>
-            <div className='mt-10 mb-5 flex flex-col justify-center items-center'>
+            <div className='mt-10 mb-5 flex flex-col justify-center items-center' data-aos="flip-left">
                 <h1 className='text-3xl font-bold text-center mt-10 mb-5'>Explore our Popular <span className='text-purple-600'>Skills</span></h1>
                 <p className='text-center text-gray-500'>Choose from hundreds of courses designed by industry experts to help you achieve <br />your goals.</p>
                 <div className='grid grid-cols-1 lg:grid-cols-4 mt-10 px-10 gap-10'>
@@ -35,7 +45,7 @@ const PopularSkills = () => {
                 </div>
             </div>
             <div className='border-b border-gray-100 mt-10 mx-10 h-2 shadow-md'></div >
-            
+
         </>
 
     )
