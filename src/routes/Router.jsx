@@ -8,6 +8,7 @@ import AllSkills from "../components/AllSkills";
 import Contactus from "../components/Contactus";
 import AboutUs from "../components/AboutUs";
 import SkillsDetails from "../components/SkillsDetails";
+import Privateroute from "../provider/Privateroute";
 
 const router = createBrowserRouter([
     {
@@ -24,7 +25,7 @@ const router = createBrowserRouter([
             },
             {
                 path: "/skills/:id",
-                Component: SkillsDetails,
+                element: <Privateroute><SkillsDetails></SkillsDetails></Privateroute>,
             },
             {
                 path: "/contact",

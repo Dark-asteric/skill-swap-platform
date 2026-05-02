@@ -1,4 +1,3 @@
-import React from 'react'
 import Herosection from './Herosection'
 import PopularSkills from './PopularSkills'
 import TopRatedProviders from './TopRatedProviders'

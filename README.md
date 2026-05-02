@@ -35,13 +35,13 @@ Key Features :
 
 Tech Stack:
 
-Frontend: React.js
+Frontend: HTML, CSS, React.js
 
 Styling: Tailwind CSS
 
 Icons: custom, daisyUI
 
-npm packages : react-toastify, lucide-react, swiper, daisyUL, animate.css, react-hot-toast
+npm packages : react-router, react-toastify, lucide-react, swiper, daisyUL, animate.css, react-hot-toast, AOS package, firebase.
 
 
 Getting Started :

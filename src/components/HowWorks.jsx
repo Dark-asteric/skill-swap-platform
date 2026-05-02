@@ -1,3 +1,6 @@
+import AOS from 'aos';
+import { useEffect } from 'react';
+
 const HowWorks = () => {
     const steps = [
         {
@@ -31,50 +34,57 @@ const HowWorks = () => {
             )
         }
     ];
-
+    useEffect(() => {
+        AOS.init({
+            duration: 1000,
+            easing: 'ease-out-back',
+            once: true,
+        });
+    }, []);
     return (
-        <section className="bg-white py-20 px-6">
-            <div className="max-w-6xl mx-auto">
-                <div className="text-center mb-16">
-                    <h2 className="text-3xl md:text-4xl font-bold text-purple-900 mb-4">
-                        Three Steps to Mastery
-                    </h2>
-                    <p className="text-gray-600 max-w-2xl mx-auto">
-                        Our platform connects you directly with professionals like Dr. Ethan Brown and Sophia Martinez
-                        to ensure you get the most out of your learning journey.
-                    </p>
-                </div>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-12 relative">
-                    <div className="hidden md:block absolute top-1/4 left-0 w-full h-0.5 bg-gray-200 -z-0"></div>
+        <div data-aos="fade-right">
 
-                    {steps.map((step) => (
-                        <div key={step.id} className="relative z-10 flex flex-col items-center text-center group">
-                            {/* Icon Circle */}
-                            <div className="w-16 h-16 rounded-full bg-purple-400 text-white flex items-center justify-center mb-6 shadow-lg group-hover:scale-110 transition-transform duration-300">
-                                {step.icon}
+        
+            <section className="bg-white py-20 px-6" >
+                <div className="max-w-6xl mx-auto">
+                    <div className="text-center mb-16">
+                        <h2 className="text-3xl md:text-4xl font-bold text-purple-900 mb-4">
+                            Three Steps to Mastery
+                        </h2>
+                        <p className="text-gray-600 max-w-2xl mx-auto">
+                            Our platform connects you directly with professionals like Dr. Ethan Brown and Sophia Martinez
+                            to ensure you get the most out of your learning journey.
+                        </p>
+                    </div>
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-12 relative">
+                        <div className="hidden md:block absolute top-1/4 left-0 w-full h-0.5 bg-gray-200 -z-0"></div>
+
+                        {steps.map((step) => (
+                            <div key={step.id} className="relative z-10 flex flex-col items-center text-center group">
+                                <div className="w-16 h-16 rounded-full bg-purple-400 text-white flex items-center justify-center mb-6 shadow-lg group-hover:scale-110 transition-transform duration-300">
+                                    {step.icon}
+                                </div>
+                                <span className="absolute -top-2 -right-2 md:right-1/4 bg-purple-700 text-white text-xs font-bold px-2 py-1 rounded-full">
+                                    0{step.id}
+                                </span>
+
+                                <h3 className="text-xl font-bold text-purple-800 mb-3">
+                                    {step.title}
+                                </h3>
+                                <p className="text-gray-600 leading-relaxed">
+                                    {step.description}
+                                </p>
                             </div>
-
-                            {/* Step Number Badge */}
-                            <span className="absolute -top-2 -right-2 md:right-1/4 bg-purple-700 text-white text-xs font-bold px-2 py-1 rounded-full">
-                                0{step.id}
-                            </span>
-
-                            <h3 className="text-xl font-bold text-purple-800 mb-3">
-                                {step.title}
-                            </h3>
-                            <p className="text-gray-600 leading-relaxed">
-                                {step.description}
-                            </p>
-                        </div>
-                    ))}
+                        ))}
+                    </div>
+                    <div className="mt-16 text-center">
+                        <button className="bg-purple-700 hover:bg-purple-900 text-white font-bold py-4 px-8 rounded-full transition-colors shadow-lg">
+                            Start Learning Now
+                        </button>
+                    </div>
                 </div>
-                <div className="mt-16 text-center">
-                    <button className="bg-purple-700 hover:bg-purple-900 text-white font-bold py-4 px-8 rounded-full transition-colors shadow-lg">
-                        Start Learning Now
-                    </button>
-                </div>
-            </div>
-        </section>
+            </section>
+        </div>
     );
 };
 

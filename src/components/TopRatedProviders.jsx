@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import TopRatedCard from './TopRatedCard';
 
 const TopRatedProviders = () => {
@@ -21,7 +21,7 @@ const TopRatedProviders = () => {
         // <div className="flex h-screen items-center justify-center backdrop-blur-sm">
         //     <span className="loading loading-spinner loading-lg"></span>
         // </div>
-        <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-white/50 backdrop-blur-sm">
+        <div className="fixed inset-0 z-9999 flex items-center justify-center bg-white/50 backdrop-blur-sm">
             <span className="loading loading-spinner loading-lg text-purple-600"></span>
         </div>
     );
@@ -34,11 +34,11 @@ const TopRatedProviders = () => {
                 <p className='text-center text-gray-500'>Our mentors are industry leaders with years of experience in their <br />respective fields.</p>
                 <div className='grid grid-cols-1 lg:grid-cols-4 mt-10 px-10 mb-20 gap-10'>
                     {sortedCards.slice(0, 4).map(card => {
-                        return <TopRatedCard key={card.skillsId} card={card}></TopRatedCard>
+                        return <TopRatedCard key={card.skillId} card={card}></TopRatedCard>
                     })
                     }
                 </div>
-                
+
             </div>
             <div className='border-b border-gray-100 mt-10 mx-10 h-2 shadow-md'></div>
         </>

@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 
 const HomeLayout = () => {
     const [pageLoading, setPageLoading] = useState(true);
-    const location = useLocation(); // Listens for URL changes
+    const location = useLocation();
 
     useEffect(() => {
         const timer = setTimeout(() => {
@@ -25,7 +25,7 @@ const HomeLayout = () => {
                 <Navbar></Navbar>
             </header>
             {pageLoading && (
-                <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-white/50 backdrop-blur-sm">
+                <div className="fixed inset-0 z-9999 flex items-center justify-center bg-white/50 backdrop-blur-sm">
                     <span className="loading loading-spinner loading-lg text-purple-600"></span>
                 </div>
             )}
