@@ -2,6 +2,7 @@ import Herosection from './Herosection'
 import PopularSkills from './PopularSkills'
 import TopRatedProviders from './TopRatedProviders'
 import HowWorks from './HowWorks'
+import CommunityStats from './CommunityStats'
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
         <Herosection></Herosection>
         <PopularSkills></PopularSkills>
         <TopRatedProviders></TopRatedProviders>
+        <CommunityStats></CommunityStats>
         <HowWorks></HowWorks>
     </div>
   )

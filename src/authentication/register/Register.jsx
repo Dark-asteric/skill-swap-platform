@@ -2,6 +2,7 @@ import { use, useState } from "react";
 import { Link, useNavigate } from "react-router"
 import { AuthContext } from "../../provider/AuthProvider";
 import toast, { Toaster } from 'react-hot-toast';
+import { Eye, EyeOff } from "lucide-react";
 
 const validatePassword = (password) => {
   const errors = [];
@@ -41,24 +42,24 @@ const validateEmail = (email) => {
 
 const Register = () => {
 
-  const { createUser,setUser, updateUser } = use(AuthContext);
-  const [nameError,setNameError] = useState("");
+  const { createUser, setUser, updateUser, googleSignIn } = use(AuthContext);
+  const [nameError, setNameError] = useState("");
   const [emailError, setEmailError] = useState("");
   // const [photoError, setPhotoError] = useState("");
   const [passwordError, setPasswordError] = useState([]);
   const navigate = useNavigate();
+  const [isShow, setIsShow] = useState(false);
 
-  
   const handleRegister = (e) => {
     e.preventDefault();
     // console.log(e.target);
     const form = e.target;
     const name = form.name.value;
-    if(name.length < 5){
+    if (name.length < 5) {
       setNameError("Name should be more than 5 characters.")
       return;
     }
-    else{
+    else {
       setNameError("");
     }
 
@@ -67,7 +68,7 @@ const Register = () => {
     if (emailErr) {
       setEmailError(emailErr);
       return;
-    } 
+    }
     else {
       setEmailError("");
     }
@@ -83,25 +84,25 @@ const Register = () => {
 
     const password = form.password.value;
     const errors = validatePassword(password);
-    if(errors.length > 0){
+    if (errors.length > 0) {
       setPasswordError(errors);
       return;
     }
-    else{
+    else {
       setPasswordError([]);
     }
-    
+
     createUser(email, password)
       .then(result => {
         const user = result.user;
-        updateUser({displayName:name, photoURL:photoURL}).then(() => {
+        updateUser({ displayName: name, photoURL: photoURL }).then(() => {
           setUser({ ...user, displayName: name, photoURL: photoURL });
         })
-        .catch(error => {
-          setUser(user);
-          toast.error(error.message);
-        })
-        
+          .catch(error => {
+            setUser(user);
+            toast.error(error.message);
+          })
+
         navigate('/');
         console.log(user)
       })
@@ -109,6 +110,17 @@ const Register = () => {
         toast.error(error.message);
       })
   }
+  const handleGoogleSignIn = () => {
+    googleSignIn()
+      .then(result => {
+        setUser(result.user)
+        navigate('/')
+      })
+      .catch(error => {
+        toast.error(error.message);
+      })
+  }
+
   return (
     <>
       <Toaster position="top-center" />
@@ -128,20 +140,32 @@ const Register = () => {
                 <input type="text" name='photo' className="input" placeholder="Photo URL" />
                 {/* {photoError && <p className="text-red-500 text-sm">{photoError}</p>} */}
                 <label className="label">Password</label>
-                <input type="password" name='password' className="input" placeholder="Password" />
-                {passwordError.length > 0 && (
-                  <ul className="mt-1 space-y-1">
-                    {passwordError.map((err, index) => (
-                      <li key={index} className="text-red-500 text-sm flex items-center gap-1">
-                        <span>✗</span> {err}
-                      </li>
-                    ))}
-                  </ul>
-                )}
+                <div className="relative">
+                  <input type={isShow ? "text" : "password"} name="password" className="input" placeholder="Password" required />
+                  {passwordError.length > 0 && (
+                    <ul className="mt-1 space-y-1">
+                      {passwordError.map((err, index) => (
+                        <li key={index} className="text-red-500 text-sm flex items-center gap-1">
+                          <span>✗</span> {err}
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                  <button type="button" onClick={() => setIsShow(!isShow)} className="absolute top-1/2 -translate-y-1/2 right-10">
+                    {isShow
+                      ? <EyeOff size={20} color="#aaaaaa" strokeWidth={1.75} />
+                      : <Eye size={20} color="#aaaaaa" strokeWidth={1.75} />
+                    }
+                  </button>
+                </div>
                 <button type="submit" className="btn btn-neutral mt-4">Register</button>
-                <p className="text-xl font-semibold text-center pt-5">Already have an accout ? <Link to="/auth/login" className="text-red-600 ">Login</Link></p>
               </fieldset>
             </form>
+            <button onClick={handleGoogleSignIn} className="btn bg-black text-gray-300 rounded-md mt-2 border-[#e5e5e5]">
+              <svg aria-label="Google logo" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><g><path d="m0 0H512V512H0" fill="#fff"></path><path fill="#34a853" d="M153 292c30 82 118 95 171 60h62v48A192 192 0 0190 341"></path><path fill="#4285f4" d="m386 400a140 175 0 0053-179H260v74h102q-7 37-38 57"></path><path fill="#fbbc02" d="m90 341a208 200 0 010-171l63 49q-12 37 0 73"></path><path fill="#ea4335" d="m153 219c22-69 116-109 179-50l55-54c-78-75-230-72-297 55"></path></g></svg>
+              Login with Google
+            </button>
+            <p className="text-xl font-semibold text-center pt-5">Already have an accout ? <Link to="/auth/login" className="text-red-600 ">Login</Link></p>
           </div>
         </div>
       </div>
