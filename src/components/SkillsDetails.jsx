@@ -35,8 +35,9 @@
 // }
 
 // export default SkillsDetails
+import { ArrowLeft } from "lucide-react";
 import { useEffect, useState } from "react";
-import { useParams } from "react-router";
+import { Link, useParams } from "react-router";
 
 const CheckIcon = () => (
     <span className="bg-purple-400" style={{
@@ -313,7 +314,10 @@ export default function SkillDetails() {
                             </button>
                         </div>
                     </div>
+                    
                 </div>
+                <Link to='/skills' className="btn bg-purple-500 text-white mt-10 ml-5 rounded-xl"><ArrowLeft size={26} color="white" strokeWidth={1.75} /> Go back</Link>
+                
             </div>
 
             <Toast visible={toast} />
